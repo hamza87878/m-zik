@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spotify Giriş</title>
+</head>
+<body style="background-color: black; color: white; font-family: Arial, sans-serif;">
+
+  <div style="text-align: center; margin-top: 100px;">
+    <img src="müziklogo.png" alt="Logo" width="200px" />
+  </div>
+
+  <form action="#" method="POST" style="text-align: center; margin-top: 30px;">
+    <div style="margin-bottom: 15px;">
+      <label for="email" style="margin-right: 10px;">E-posta:</label>
+      <input type="email" id="email" name="email" />
+    </div>
+
+    <div style="margin-bottom: 20px;">
+      <label for="password" style="margin-right: 10px;">Şifre:</label>
+      <input type="password" id="password" name="password" />
+    </div>
+
+    <!-- Giriş Yap Butonu -->
+    <button type="submit"
+      style="background-color: green; color: white; border-radius: 10px; width: 250px; height: 50px; font-size: 16px; border: none; margin: 10px auto; display: block;">
+      Giriş Yap
+    </button>
+
+    <!-- Facebook Giriş -->
+    <button type="button"
+      onclick="window.location.href='https://www.facebook.com';"
+      style="background-color: #1877f2; color: white; border-radius: 10px; width: 250px; height: 50px; font-size: 16px; border: none; display: flex; align-items: center; justify-content: center; gap: 10px; margin: 10px auto;">
+      <img src="Facebook_Logo_(2019).png" alt="Facebook" style="height: 24px;" />
+      Facebook ile Giriş Yap
+    </button>
+
+    <!-- Google Giriş -->
+    <button type="button"
+      onclick="window.location.href='https://www.google.com';"
+      style="background-color: white; color: black; border-radius: 10px; width: 250px; height: 50px; font-size: 16px; border: none; display: flex; align-items: center; justify-content: center; gap: 10px; margin: 10px auto;">
+      <img src="Google_Icons-09-512.jpg" alt="Google" style="height: 24px;" />
+      Google ile Giriş Yap
+    </button>
+  </form>
+
+</body>
+</html>
